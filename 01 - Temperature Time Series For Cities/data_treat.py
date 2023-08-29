@@ -76,7 +76,7 @@ def set_outlier_multiplier(df, multiplier):
   return df
 
 def set_fill(df, tipo):
-  if(tipo == "nada"):
+  if(tipo == "nulo"):
     return df
   elif(tipo == "fillna"):
     for k in df.keys():
